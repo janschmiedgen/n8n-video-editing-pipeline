@@ -53,3 +53,6 @@ wheels/
 # _input-files/*.mp4
 # _input-files/*.mov
 # _input-files/*.MOV
+
+# Sensitive files
+PRD_for_n8n_Video_Pipeline.md
