@@ -1,6 +1,22 @@
-# n8n Video Processing Pipeline
+# n8n Video Editing Pipeline
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+[![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=flat&logo=ffmpeg&logoColor=white)](https://ffmpeg.org/)
+
+> **Professional video processing pipeline for n8n automation with AI transcription, multi-format rendering, and brand overlays**
 
 A comprehensive video processing pipeline that integrates with n8n for automated video transcription, caption generation, and multi-format rendering with overlay graphics.
+
+## 🚀 Quick Deploy
+
+```bash
+git clone https://github.com/YOUR_USERNAME/n8n-video-editing-pipeline.git
+cd n8n-video-editing-pipeline
+pip3 install flask faster-whisper requests
+./start_api.sh start
+```
 
 ## 🎯 Overview
 
