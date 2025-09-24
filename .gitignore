@@ -29,6 +29,7 @@ parts/
 sdist/
 var/
 wheels/
+_backup
 *.egg-info/
 .installed.cfg
 *.egg
@@ -50,9 +51,9 @@ wheels/
 *.temp
 
 # Test videos (optional - uncomment if you don't want to track test videos)
-# _input-files/*.mp4
-# _input-files/*.mov
-# _input-files/*.MOV
+_input-files/*.mp4
+_input-files/*.mov
+_input-files/*.MOV
 
 # Sensitive files
 PRD_for_n8n_Video_Pipeline.md
